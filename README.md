@@ -38,6 +38,10 @@ openssl rsa -in keytmp.pem -out key.pem
 ```
 </br>
 
+Após a geração, coloque os arquivos na pasta src/components (ou troque caminho dos arquivos nas linhas 17 e 18 do index.js).
+
+</br>
+
 Para executar o projeto, rode o comando:
 
 ```sh
@@ -97,6 +101,10 @@ openssl req -x509 -newkey rsa:2048 -keyout keytmp.pem -out cert.pem -days 365
 ```sh
 openssl rsa -in keytmp.pem -out key.pem
 ```
+</br>
+
+After generation, put the files on src/components folder (or change the path on index.js lines 17 and 18).
+
 </br>
 
 To run the project, run the command:
